@@ -97,8 +97,8 @@ export default function About() {
       </motion.div>
       {/* Botão de download do CV */}
       <motion.a
-        href="../assets/Gabriel Augusto Silva Cavalcante.pdf"
-        download
+        href="/cv.pdf"
+        download="cv.pdf"
         className="mt-8 inline-block px-10 py-3 rounded-full border-2 border-white text-white font-extrabold text-2xl shadow-lg bg-[#232323] hover:bg-white hover:text-[#232323] transition-colors duration-200 mx-auto"
         style={{ boxShadow: "0 4px 32px 0 rgba(0,0,0,0.25)" }}
         initial={{ opacity: 0, scale: 0.9 }}
