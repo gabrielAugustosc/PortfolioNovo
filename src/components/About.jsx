@@ -45,7 +45,15 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.8 }}
           >
-            Olá! Sou o Gabriel, tenho 20 anos e sou apaixonado por tecnologia e resolução de problemas. Atualmente no 5º semestre de Sistemas de Informação na FIAP, tenho focado meus estudos e projetos na área de desenvolvimento Back-end. Possuo experiência prática com Java, Node.js e bancos de dados SQL, além de construir interfaces com React, TypeScript e Tailwind CSS. Meu objetivo é sempre criar soluções eficientes e seguras, seja em projetos acadêmicos estruturando plataformas corporativas, ou atuando como freelancer desenvolvendo sites profissionais.
+            Olá! Sou o Gabriel, tenho 20 anos e sou apaixonado por tecnologia e
+            resolução de problemas. Atualmente no 5º semestre de Sistemas de
+            Informação na FIAP, tenho focado meus estudos e projetos na área de
+            desenvolvimento Back-end. Possuo experiência prática com Java,
+            Node.js e bancos de dados SQL, além de construir interfaces com
+            React, TypeScript e Tailwind CSS. Meu objetivo é sempre criar
+            soluções eficientes e seguras, seja em projetos acadêmicos
+            estruturando plataformas corporativas, ou atuando como freelancer
+            desenvolvendo sites profissionais.
           </motion.p>
           {/* Cards de informações */}
           <motion.div
