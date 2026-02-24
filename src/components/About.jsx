@@ -89,7 +89,7 @@ export default function About() {
       </motion.div>
       {/* Botão de download do CV */}
       <motion.a
-        href="/cv.pdf" // Altere para o caminho real do seu CV
+        href="../assets/Gabriel Augusto Silva Cavalcante.pdf"
         download
         className="mt-8 inline-block px-10 py-3 rounded-full border-2 border-white text-white font-extrabold text-2xl shadow-lg bg-[#232323] hover:bg-white hover:text-[#232323] transition-colors duration-200 mx-auto"
         style={{ boxShadow: "0 4px 32px 0 rgba(0,0,0,0.25)" }}
